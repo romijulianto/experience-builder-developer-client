@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { React, jsx } from 'jimu-core'
 import type { AllWidgetProps } from 'jimu-core'
 import { GoogleMap, LoadScript, Marker, TrafficLayer } from '@react-google-maps/api'
@@ -69,10 +70,10 @@ export default function Widget (props: AllWidgetProps<Config>) {
           onLoad={onLoad}
           onUnmount={onUnmount}
           options={{
-            zoomControl: true, // Enable zoom controls
-            mapTypeControl: true, // Enable map type control
-            streetViewControl: true, // Enable street view control
-            fullscreenControl: true // Enable fullscreen control
+            zoomControl: true,
+            mapTypeControl: true,
+            streetViewControl: true,
+            fullscreenControl: true
           }}
         >
           {showTraffic && <TrafficLayer />}
