@@ -1,6 +1,6 @@
 {
-  "name": "simple",
-  "label": "Simple",
+  "name": "widget-dev",
+  "label": "Widget Developer",
   "type": "widget",
   "version": "1.16.0",
   "exbVersion": "1.16.0",
