@@ -29,6 +29,7 @@
     "@esri/telemetry-google-analytics": "^2.0.1",
     "@material/material-color-utilities": "^0.3.0",
     "@popperjs/core": "^2.11.8",
+    "@react-google-maps/api": "^2.20.6",
     "@react-spring/web": "^9.7.3",
     "@testing-library/user-event": "^14.5.2",
     "@types/lodash-es": "^4.17.12",
